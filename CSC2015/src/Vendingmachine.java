@@ -4,7 +4,7 @@ public class Vendingmachine {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		Change out = new Change();
-		
+		// variables
 		double money = 1;
 		double ammount = 0;
 		double nis = 1.45;
@@ -19,16 +19,16 @@ public class Vendingmachine {
 		int Dimes;
 		int Nickels;
 		int Penny;
-		
+		// promt user guide
 		System.out.println("Keychain Vending machine");
 		System.out.println("1) Nissan Emblem\t 1.45 \n2) Honda Emblem\t\t 1.55 \n3) Mitsubishi Emblem\t 2.65 \n4) Subaru Emblem\t 3.75 \n5) BMW Emblem\t\t 4.85 \n ");
 		System.out.println("Insert Amount, only takes 1 & 5");
 		System.out.println("Press 0 when finished");
 		
 		
-		//money = in.nextInt();
 		
 		
+		//loop to input money
 		while (money != 0){
 			money = in.nextInt();
 			if (money != 1 && money != 5){
